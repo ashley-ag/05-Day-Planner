@@ -29,8 +29,6 @@ for (i=0; i < hoursInDay.length; i++) {
         console.log("yay");
     })
 
-
-
 }
 
 });
