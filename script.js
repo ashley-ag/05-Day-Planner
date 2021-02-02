@@ -26,26 +26,11 @@ for (i=0; i < hoursInDay.length; i++) {
     cell3.append(cell3Btn);
     
     $(".btn-outline-success").on("click", function() {
-        //console.log("yay");
-        var storeCell1 = JSON.parse(cell1.val[i]);
-        var storeCell2 = JSON.parse(cell2.val[i]);
-        console.log(storeCell1, storeCell2);
+        console.log("yay");
     })
 
 
-// WHEN I view the time blocks for that day
-// THEN each time block is color-coded to indicate whether it is in the past, present, or future
-
 
 }
-
-
-
-// WHEN I click the save button for that time block
-// THEN the text for that event is saved in local storage
-
-
-// WHEN I refresh the page
-// THEN the saved events persist
 
 });
